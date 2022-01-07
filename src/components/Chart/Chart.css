@@ -1,0 +1,14 @@
+.chart__container{
+    background-color: rgb(56, 90, 124);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.chart__container > div{
+    height: 80%;
+    margin: auto;
+}

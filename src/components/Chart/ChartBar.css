@@ -1,0 +1,17 @@
+.chart__bar{
+    width: 20px;
+    height: 80%;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chart__bar-inner{
+    border-radius: 5px;
+}
+
+.label{
+    margin-top: .5rem;
+}
