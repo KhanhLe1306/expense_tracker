@@ -1,32 +1,60 @@
-.form__input{
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(88, 88, 182);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem;
-    gap: 1rem;
+.form__input {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgb(88, 88, 182);
+	padding: 2rem;
 }
 
-.form__input label{
-    margin-right: 1rem;
-    font-size: 1.5rem;
+.form__input label {
+	margin-right: 1rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	display: block;
 }
 
-.form__input input{
-    padding: .5rem;
-    font-size: 1.5rem;
+input {
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	width: 70%;
 }
 
-.form__input button{
-    padding: 1rem 2rem;
-    border: none;
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: pointer;
+.form__input button {
+	padding: 1rem 2rem;
+	border: none;
+	font-size: 2rem;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.form__input div{
-    justify-self: center;
-    align-self: center;
+.head {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.bottom button {
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.cancel__button {
+	padding: 1rem 2rem;
+	border: none;
+	font-size: 2rem;
+	font-weight: bold;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	border-radius: 0.5rem;
 }
